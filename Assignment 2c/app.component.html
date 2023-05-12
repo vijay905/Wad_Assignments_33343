@@ -1,0 +1,15 @@
+<h1> Angular Application </h1>
+
+<input type="text" #name placeholder="Enter Your Name : " name="Name"><br>
+<input type="text" #rollno placeholder="Enter your Rollno : " rollno="Rollno"><br>
+<input type="text" #branch placeholder="Enter Your Branch : " branch="Branch"><br>
+<input type="text" #year placeholder="Enter Your Year : " year="Year"><br>
+
+<button (click)="getValue(name.value , rollno.value , branch.value,year.value)">Register</button>
+
+<h1>Your Registered Data</h1><br>
+
+<p>Name :{{displayname}}</p>
+<p>Rollno :{{displayrollno}}</p>
+<p>Branch :{{displaybranch}}</p>
+<p>Year : {{displayyear}}</p>

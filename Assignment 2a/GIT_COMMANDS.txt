@@ -1,0 +1,38 @@
+                      GIT COMMANDS
+>git –version
+
+>git config --global user.name
+"Yash_100000"
+
+>git config --global user.email
+"yash.dhavale2010@gmail.com"
+
+>mkdir myproject
+>cd myproject
+
+>git init
+>git status
+
+>git add index.html
+>git add --all
+
+>git commit -m "First release of Hello World!"
+>git commit -a -m "Updated index.html with a new line"
+
+>git log
+>git command -help
+>git help --all
+>git commit -help
+>git branch hello-world-images
+
+>git checkout hello-world-images
+>git checkout master
+
+>git remote add origin
+https://github.com/Yash100000/Hello-World.git
+
+>git push --set-upstream origin master
+>git fetch origin
+
+>git merge origin/master
+>git pull origin
